@@ -1,0 +1,7 @@
+# Neovim junk
+.netrwhist
+*.swp
+*.swo
+*~
+undo/
+.DS_Store
