@@ -18,6 +18,8 @@
 <img src="./img/fastfetch.png" alt="Fastfetch" width="49%">
 <br><br>
 <img src="./img/nvim.png" alt="Neovim Dashboard" width="85%">
+<br><br>
+<img src="./img/btop.png" alt="btop" width="85%">
 
 </div>
 
@@ -29,7 +31,7 @@
 - **Terminal:** Ptyxis
 - **Shell:** Bash (custom prompt in pure Bash, no Starship required)
 - **Editor:** Neovim (built from scratch using `lazy.nvim` with modular architecture)
-- **CLI Tools:** `fastfetch`, `eza`
+- **CLI Tools:** `fastfetch`, `eza`, `btop`
 - **Color Palette:** Tokyo Night / Moon Monochrome
 
 ## 📂 Repository Structure
@@ -43,7 +45,9 @@
   * UI: Custom `alpha-nvim` dashboard, `neo-tree`, `lualine`, `noice.nvim`
   * Development: LSP (`mason`), `treesitter` highlighting, auto-completion, formatting
 * **`.config/fastfetch/`** — Customized hardware info block with rounded borders and minimalist specs.
+* **`.config/btop/`** — System monitor config with a theme matching the rest of the setup.
 
 ## 🚀 Quick Start
 ```bash
 git clone https://github.com/Kapat1ch/dotfiles.git ~/dotfiles
+```

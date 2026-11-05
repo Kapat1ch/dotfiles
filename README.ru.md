@@ -18,6 +18,8 @@
 <img src="./img/fastfetch.png" alt="Fastfetch" width="49%">
 <br><br>
 <img src="./img/nvim.png" alt="Дашборд Neovim" width="85%">
+<br><br>
+<img src="./img/btop.png" alt="btop" width="85%">
 
 </div>
 
@@ -25,11 +27,11 @@
 
 ## 💻 Спеки и окружение
 - **ОС:** Nobara Linux 44 (GNOME Edition)
-- **Оконный менеджер:** Mutter (Wayland)
+- **Композитор:** Mutter (Wayland)
 - **Терминал:** Ptyxis
 - **Оболочка:** Bash (кастомный двустрочный промпт на чистом Bash)
 - **Редактор:** Neovim (модульная сборка с нуля на базе `lazy.nvim`)
-- **Утилиты:** `fastfetch`, `eza`
+- **Утилиты:** `fastfetch`, `eza`, `btop`
 - **Цветовая палитра:** Tokyo Night / Moon Monochrome
 
 ## 📂 Что внутри
@@ -43,7 +45,9 @@
   * Интерфейс: кастомный арт в `alpha-nvim`, файловый менеджер `neo-tree`, `lualine`, `noice.nvim`
   * Разработка: LSP (`mason`), подсветка `treesitter`, автодополнение кода, форматирование
 * **`.config/fastfetch/`** — Кастомный блок с характеристиками ПК и скругленными рамками.
+* **`.config/btop/`** — Конфиг системного монитора с темой в цветах остальной сборки.
 
 ## 🚀 Установка
 ```bash
 git clone https://github.com/Kapat1ch/dotfiles.git ~/dotfiles
+```
