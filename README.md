@@ -77,6 +77,7 @@ sudo pacman -S git neovim eza fastfetch btop ripgrep fd wl-clipboard gcc make un
 ```bash
 sudo apt install git neovim btop ripgrep fd-find wl-clipboard gcc g++ make unzip curl tar
 ```
+> On older releases `eza` and `fastfetch` may be missing from the repos, and the packaged Neovim may be older than 0.10. See the install guides above.
 
 Hack Nerd Font is only packaged on some distros (e.g. `ttf-hack-nerd` on Arch). Otherwise download `Hack.zip` from the Nerd Fonts releases, unpack it into `~/.local/share/fonts/` and run `fc-cache -f`.
 
